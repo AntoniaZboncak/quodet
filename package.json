@@ -1,0 +1,56 @@
+{
+  "name": "quodet",
+  "version": "1.0.0",
+  "description": "Noble ed25519 & ristretto255. High-security, easily auditable, 0-dep, 1-file pubkey, scalarmult & EDDSA.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "ristretto255.js",
+    "ristretto255.d.ts"
+  ],
+  "jest": {
+    "testRegex": "/.*?\\.test.ts",
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "useStderr": true,
+    "bail": 2
+  },
+  "author": "MaddisonConsidine",
+  "homepage": "https://github.com/AntoniaZboncak/quodet.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AntoniaZboncak/quodet.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.21",
+    "@types/node": "^12.12.5",
+    "benchmark": "^2.1.4",
+    "fast-check": "^1.18.1",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.7.2"
+  },
+  "keywords": [
+    "vitae",
+    "edwards",
+    "cupiditate",
+    "temporibus",
+    "sunt",
+    "x25519",
+    "amet",
+    "porro",
+    "curve",
+    "facilis",
+    "ecc",
+    "vitae",
+    "voluptatem",
+    "cryptography",
+    "magni"
+  ],
+  "bugs": {
+    "url": "https://github.com/AntoniaZboncak/quodet.git/issues"
+  }
+}
